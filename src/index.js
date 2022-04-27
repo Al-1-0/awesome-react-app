@@ -1,17 +1,36 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Navbar from './components/Navbar';
+import Home from './components/pages/Home';
+import WebServices from './components/pages/WebServices';
+import DigitalServices from './components/pages/DigitalServices';
+import SignUp from './components/pages/SignUp';
+import Mailer from './components/mailer.js';
+import {BrowserRouter as Router, Routes, Route} from 'react-router-dom';
+import './App.css';
 
-ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+
+ReactDOM.render(<App />,
   document.getElementById('root')
 );
+function App() {
+  return (
+    <>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path='/' element=
+        {<Home/>} />
+        <Route path='/web-services' element={<WebServices/>} />
+        <Route path='/digital-services' element={<DigitalServices/>} />
+        <Route path='/sign-up' element={<SignUp/>} />
+        <Route path='/mailer' element={<Mailer/>} />
+      </Routes>
+      </Router>
+      
+</>
+  );
+}
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+export default App;
+
