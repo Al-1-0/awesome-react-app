@@ -1,0 +1,46 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+  .home,
+  .web-services,
+  .digital-services,
+  .sign-up {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: center;
+    font-size: 3rem;
+  }
+  
+  .web-services {
+    background-image: url('./images/network.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 70px;
+  }
+  
+  .digital-services {
+    background-image: url('./images/seo.jpg');
+    box-shadow: inset 0 0 0 1000px rgba(0,0,0,0.2);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 70px;
+  }
+  
+  .sign-up {
+    background-image: url('./images/img-8.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #fff;
+    font-size: 100px;
+  }
