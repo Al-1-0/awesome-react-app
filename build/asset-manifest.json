@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/awesome-react-app_001/static/css/main.832aa9ca.chunk.css",
+    "main.js": "/awesome-react-app_001/static/js/main.a100147c.chunk.js",
+    "main.js.map": "/awesome-react-app_001/static/js/main.a100147c.chunk.js.map",
+    "runtime-main.js": "/awesome-react-app_001/static/js/runtime-main.a5bbce28.js",
+    "runtime-main.js.map": "/awesome-react-app_001/static/js/runtime-main.a5bbce28.js.map",
+    "static/js/2.2d89925a.chunk.js": "/awesome-react-app_001/static/js/2.2d89925a.chunk.js",
+    "static/js/2.2d89925a.chunk.js.map": "/awesome-react-app_001/static/js/2.2d89925a.chunk.js.map",
+    "index.html": "/awesome-react-app_001/index.html",
+    "static/css/main.832aa9ca.chunk.css.map": "/awesome-react-app_001/static/css/main.832aa9ca.chunk.css.map",
+    "static/js/2.2d89925a.chunk.js.LICENSE.txt": "/awesome-react-app_001/static/js/2.2d89925a.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/awesome-react-app_001/static/media/seo.c40a28bb.jpg",
+    "static/media/WebContent.css": "/awesome-react-app_001/static/media/planet.d76337df.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a5bbce28.js",
+    "static/js/2.2d89925a.chunk.js",
+    "static/css/main.832aa9ca.chunk.css",
+    "static/js/main.a100147c.chunk.js"
+  ]
+}
