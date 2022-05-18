@@ -2,7 +2,7 @@
   "name": "awesome-react-app_001",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Al-1-0.github.io/awesome-react-app_001",
+  "homepage": "https://al-1-0.github.io/awesome-react-app.github.io/",
   "proxy": "http://localhost:3000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
