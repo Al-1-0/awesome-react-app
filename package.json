@@ -1,9 +1,9 @@
 {
-  "name": "awesome-react-app_001",
+  "name": "awesome-react-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://Al-1-0.github.io/awesome-react-app_001",
-  "proxy": "http://localhost:3000",
+  "homepage": "https://al-1-0.github.io/awesome-react-app/",
+  "proxy": "https://localhost:3000",
   "dependencies": {
     "@testing-library/jest-dom": "^5.11.10",
     "@testing-library/react": "^11.2.6",

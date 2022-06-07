@@ -21,10 +21,10 @@ function App() {
       <Routes>
         <Route path='/' element=
         {<Home/>} />
-        <Route path='/web-services' element={<WebServices/>} />
-        <Route path='/digital-services' element={<DigitalServices/>} />
-        <Route path='/sign-up' element={<SignUp/>} />
-        <Route path='/mailer' element={<Mailer/>} />
+        <Route path='./web-services' element={<WebServices/>} />
+        <Route path='./digital-services' element={<DigitalServices/>} />
+        <Route path='./sign-up' element={<SignUp/>} />
+        <Route path='./mailer' element={<Mailer/>} />
       </Routes>
       </Router>
       
